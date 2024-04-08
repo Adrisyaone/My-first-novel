@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "नसुनिएको कथा"
+  author: "बिक्रम अधिकारी"
+  date: "04/05/2024"
+  chapters:
+    - index.qmd
+    - Chapter1.qmd
+
+
+page-navigation: true
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
